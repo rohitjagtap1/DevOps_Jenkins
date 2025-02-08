@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="hompagetestcase(failed)">
+    <classes>
+      <class name="com.crm.testcases.homepage_testcase">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyurl"/>
+        </methods>
+      </class> <!-- com.crm.testcases.homepage_testcase -->
+    </classes>
+  </test> <!-- hompagetestcase(failed) -->
+  <test thread-count="5" name="loginpagetestcase(failed)">
+    <classes>
+      <class name="com.crm.testcases.loginpage_testcase">
+        <methods>
+          <include name="setup"/>
+          <include name="validatelogin"/>
+          <include name="pagesetup"/>
+        </methods>
+      </class> <!-- com.crm.testcases.loginpage_testcase -->
+    </classes>
+  </test> <!-- loginpagetestcase(failed) -->
+</suite> <!-- Failed suite [Suite] -->
